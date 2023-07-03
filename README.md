@@ -12,3 +12,5 @@
 - License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 - License URI: http://creativecommons.org/licenses/by-nc-sa/4.0/
 - Text Domain: malika-events
+
+> This plugin works well with Aheri Malika Theme [here](https://github.com/Barissa-Imran/aheri-malika-theme)
