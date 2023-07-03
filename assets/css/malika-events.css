@@ -1,0 +1,84 @@
+:root {
+  --color-main: #1f3a48;
+  --color-secondary: #e2dfd8;
+  --color-title: #3a1f54;
+  --color-lines: #d8d4cc;
+  --color-other: #00a651;
+}
+
+/* navbar section */
+.active-event-navigation {
+  position: absolute !important;
+  top: 0;
+  background: var(--color-other);
+  width: 100%;
+  text-align: center;
+  z-index: 4;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.active-event-navigation a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.active-event-navigation a:hover {
+  text-decoration: underline !important;
+}
+
+#eventNavCloseBtn {
+  color: #fff;
+  float: right;
+  padding: 0 1rem;
+  border: none;
+  background: none;
+  transition: 0.5s ease;
+}
+
+#eventNavCloseBtn:hover {
+  color: var(--color-title);
+}
+
+/* popup modal */
+/* body.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+} */
+
+.active-event-popup_container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  padding: 0;
+  z-index: 3;
+}
+
+#eventPopBtn {
+  float: right;
+}
+
+.active-event-popup {
+  font-size: 1.8rem;
+  background: rgba(255, 255, 255, 0.1) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.event-bg img {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.active-event-title {
+  font-weight: 600;
+}
