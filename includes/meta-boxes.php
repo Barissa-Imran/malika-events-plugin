@@ -35,5 +35,3 @@ function malika_event_details_callback($post)
   <input type="url" id="event_register_link" name="event_register_link" value="<?php echo esc_attr(get_post_meta($post->ID, 'event_register_link', true)); ?>">
   <?php
 }
-
-
